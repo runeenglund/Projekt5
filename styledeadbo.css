@@ -1,1 +1,48 @@
-kjsfjds
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #AE957E;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+
+}
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.column {
+  display: inline-table;
+  float: left;
+  width: 20%;
+}
+
+.columnlogo {
+  float: left;
+  display: flex;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+
+.footertext {
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.column2 {
+  display: inline-flex;
+  float: left;
+  width: 20%;
+  vertical-align: middle;
+}
