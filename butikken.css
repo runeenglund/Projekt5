@@ -1,4 +1,3 @@
-
 @media screen
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
@@ -7,25 +6,42 @@
 }
 
 .frontlogo {
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-}
-
-.headertext {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
-  overflow: hidden;
-
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.maintitle {
-  position: relative;
-  text-align: center;
+h1 {
+  font-family:Poppins;
+  display: block;
+  align-items: center;
 }
+
+.navbar ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  display: block;
+  color: brown;
+  text-align: center;
+  align-items: baseline;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+
+
+
 
 .btn {
   padding: .3em .8em;
@@ -91,10 +107,7 @@
   vertical-align: middle;
 }
 
-h1 {
-  font-family: 'Poppins';
-  font-size: 25px;
-}
+
 
 h2 {
    font-family: 'Poppins';
