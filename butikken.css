@@ -41,8 +41,25 @@ h1 {
 }
 
 
+h2 {
+   font-family: 'Poppins';
+   font-size: 12px;
+}
 
+p {
+  font-family: 'Poppins';
+  font-size: 12px;
+}
 
+img{
+  max-width: 90%;
+}
+
+.butiktekst{
+  float: right;
+  margin-right: 100px;
+  white-space: pre;
+}
 
 .btn {
   padding: .3em .8em;
@@ -110,16 +127,6 @@ h1 {
 
 
 
-h2 {
-   font-family: 'Poppins';
-   font-size: 12px;
-}
-
-p {
-  font-family: 'Poppins';
-  font-size: 12px;
-  white-space: pre;
-}
 .link {
   display: inline-block;
   margin: 10px 0 45px 45px;
