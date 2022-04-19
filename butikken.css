@@ -16,9 +16,14 @@ h1 {
   font-family: 'Ms Madi', cursive;
   font-size: 60px;
   text-align:center;
-  margin-bottom: 10px;
+  margin-top: 100px;
 }
+p{
+  font-family: 'Poppins';
+  text-align: center;
+  margin-bottom: 200px;
 
+}
 .navbar ul {
   list-style:none;
   margin: 0;
@@ -40,26 +45,34 @@ h1 {
   text-decoration: none;
 }
 
-
-h2 {
-   font-family: 'Poppins';
-   font-size: 12px;
+.butikken{
+  display: flex;
+  flex-direction: row;
 }
 
-p {
+.butiktekst{
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 150px;
+}
+
+.butiktekst h2 {
+   font-family: 'Poppins';
+   font-size: 20px;
+}
+
+.butiktekst p {
   font-family: 'Poppins';
-  font-size: 12px;
+  font-size: 17px;
 }
 
 img{
   max-width: 90%;
+  padding-left: 50px;
 }
 
-.butiktekst{
-  float: right;
-  margin-right: 100px;
-  white-space: pre;
-}
+
 
 .btn {
   padding: .3em .8em;
