@@ -24,6 +24,7 @@
 .maintitle {
   position: relative;
   text-align: center;
+  
 }
 
 .btn {
@@ -36,14 +37,12 @@
   text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
   font-size: 125%;
   line-height: 1.5em;
-  position: relative;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -53,7 +52,7 @@
   text-align: center;
   display: inline-block;
   overflow: hidden;
-  
+
 }
 .wrapper {
   margin-left: 5%;
@@ -167,23 +166,26 @@ textarea {
 
 .forsidebillede {
   float: left;
-  padding: 10px;
-}
-
-.textforside {
-  text-align: center;
+  padding: 50px 0px 100px 100px;
+  
 }
 
 .textforside h2{
 text-align: center;
 font-size: 20px;
 color: #5F2813;
+padding: 10px;
 }
 
 .textforside p {
   color: #5F2813;
   font-size: 14px;
-  max-width: 1000px;
-  text-align: justify;
-  padding: 0px 100px 0px 550px;
+  text-align: center;
+  padding: 0px 100px 0px 650px;
+  min-width: 300px;
+  max-width: 750px;
+}
+
+.textforside {
+  padding: 20px 0px 0px 0px;
 }
