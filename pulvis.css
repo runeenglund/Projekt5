@@ -116,7 +116,7 @@ p {
 
 }
 
-/*.contactform {
+.contactform {
   float: left;
   margin-left: 20%;
 }
@@ -170,5 +170,5 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#black; }
-*/
+
 .cont
