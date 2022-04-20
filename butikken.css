@@ -144,17 +144,9 @@ img{
   vertical-align: middle;
 }
 
-
-
 .link {
   display: inline-block;
   margin: 10px 0 45px 45px;
-}
-
-
-
-.middle {
-
 }
 
 .contactform {
@@ -183,33 +175,8 @@ img{
   outline:0;
 }
 
-.feedback-input:focus {
-  border:2px
-  solid #black;
-
-}
-
 textarea {
   height: 50px;
   line-height: 120%;
   resize: vertical;
 }
-
-[type="submit"] {
-  font-family: Poppins, sans-serif;
-  width: 80%;
-  background:#black;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:black;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-[type="submit"]:hover { background:#black; }
-
-.cont
