@@ -25,7 +25,6 @@ body{
   line-height: 12px;
   background-color: transparent;
   border:1px solid #707070;
-  transition: all 0.2s;
   padding: 7px;
   margin-bottom: 10px;
   width:80%;
@@ -56,7 +55,7 @@ textarea {
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
-  transition: all 0.2s;
+
   margin-top:-4px;
   font-weight:700;
 }
@@ -75,6 +74,7 @@ input[type=submit]:hover {
   margin-right: 20%;
   grid-gap: 1.5rem;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .contactbox{

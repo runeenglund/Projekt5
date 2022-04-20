@@ -50,6 +50,7 @@ body{
   font-family: 'Ms Madi', cursive;
   font-size: 60px;
   text-align:center;
+
 }
 
 .undertitel{
@@ -57,7 +58,7 @@ body{
   text-align: center;
 }
 
-/* Om Pulvis START */
+
 section {
   padding: 30px 70px 50px 70px;
 }
@@ -74,11 +75,16 @@ section {
   width: 100%;
 }
 
+.imgBx {
+  width: 100px;
+  height: auto;
+}
+
+
 .row p {
   color: #5F2813;
   font-size: 14px;
   text-align: left;
-
 }
 
 .row h2{
@@ -87,5 +93,3 @@ section {
   color: #5F2813;
   padding: 10px;
   }
-
-  /* Om pulvis SLUT*/

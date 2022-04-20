@@ -89,10 +89,16 @@ body{
 }
 
 img{
+<<<<<<< HEAD
+  max-width: 400px;
+  padding-left: 50px;
+=======
   max-width: 600px;
   padding-left: 0px;
+>>>>>>> 3cf6e06fdb50d3c6d574924c7b877a377b84de5a
 
 }
+
 
 /* -----FOOTER------- */
 
