@@ -17,10 +17,6 @@ body{
 
 }
 
-img .frontlogo {
-
-}
-
 .headertext {
   display: flex;
   justify-content: space-around;
@@ -92,4 +88,19 @@ section {
   font-size: 20px;
   color: #5F2813;
   padding: 10px;
+  }
+
+  #deadbo imgbx {
+    width: 322px;
+    height: 299px;
+  }
+
+  .col50 h2 {
+    text-align: left;
+    padding: 0;
+  }
+
+  #deadbo2 img {
+    width: 300;
+    height: 250;
   }
