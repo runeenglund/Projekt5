@@ -48,7 +48,7 @@ p{
   text-align: center;
   align-items: baseline;
   padding: 25px 20px;
-  margin: 20px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
@@ -94,7 +94,13 @@ p{
 }
 
 img{
+  display: flex;
+
   max-width: 600px;
   padding-left: 50px;
+
+}
+
+@media query {
 
 }
