@@ -9,6 +9,7 @@
     <link rel="" href="">
     <link rel="" href="">
     <script src="pulvis.js" defer></script>
+    <script src="emma.js" defer></script>
   </head>
   <body>
       <header>
@@ -38,9 +39,14 @@
           <input name="email" type="email" class="feedback-input" placeholder="Email..." />
           <input name="text" type="text" class="feedback-input" placeholder="Emne..." />
           <textarea name="text" class="feedback-input" placeholder="Skriv..."></textarea>
-          <input type="submit" value="Send"/>
+          <button class="sendknap" type="submit" value="Send" onclick="myFunction()">Send</button>
         </form>
+
+
+
       </div>
+
+
 
       <div class="contactinfo">
         <div class="contactbox">
@@ -75,8 +81,7 @@
           <div class="wrapper">
 
             <div class="column">
-              <div class="mobilepaylogo"><img src="images/mobilepay.png" alt="Instagram link"></div>
-
+              <img class="logo" src="images/mobilepay.png" alt="Instagram link">
               <div class="footertext">
                 <h2>Betalingsoplysninger</h2>
                 <p>Totalbanken <br>
@@ -87,18 +92,16 @@
             </div>
 
             <div class="column">
-              <div class="clock1logo"><img src="images/clock1.png" alt="Instagram link"></div>
-
+              <img class="logo" src="images/clock1.png" alt="clock">
               <div class="footertext">
-
-              <h2>Butik åbningstider</h2>
-              <p>Mandag - fredag: 11.00 - 17.30 <br>
-              Lørdag: 11.00 - 15.00</p>
-            </div>
+                <h2>Butik åbningstider</h2>
+                <p>Mandag - fredag: 11.00 - 17.30 <br>
+                Lørdag: 11.00 - 15.00</p>
+              </div>
             </div>
 
             <div class="column">
-              <div class="phonelogo"><img src="images/phone.png" alt="Instagram link"></div>
+              <img class="logo" src="images/phone.png" alt="phone">
               <div class="footertext">
                 <h2>Tlf. 61 74 39 39 </h2>
                 <p>CVR. 41506563</p>
@@ -107,7 +110,7 @@
 
 
             <div class="column">
-              <div class="mappinlogo"><img src="images/mappin.png" alt="Instagram link"></div>
+              <img class="logo"src="images/mappin.png" alt="Instagram link">
               <div class="footertext">
                 <h2>Butik Pulvis</h2>
                   <p>Vesterbro 13, 5000 Odense C.</p>
@@ -115,10 +118,8 @@
             </div>
 
             <div class="column2">
-
               <a class="link" href="https://www.instagram.com/butikpulvis/" target="_blank"><img src="images/ig.png" alt="Instagram link" style="width:45px;height:45px;"></a>
               <a class="link" href="https://www.facebook.com/krabbenpulvis" target="_blank"><img src="images/fb.png" alt="Facebook link" style="width:45px;height:45px;"></a>
-
             </div>
 
           </div>

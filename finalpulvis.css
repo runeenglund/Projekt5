@@ -14,7 +14,6 @@ body{
 .frontlogo {
   display: flex;
   justify-content: center;
-  padding-right: 50px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -41,7 +40,7 @@ body{
   text-align: center;
   align-items: baseline;
   padding: 25px 20px;
-  margin: 20px;
+  margin: 0px;
   text-decoration: none;
 }
 
@@ -86,7 +85,7 @@ body{
 
 img{
   max-width: 600px;
-  padding-left: 50px;
+  padding-left: 0px;
 
 }
 
@@ -109,7 +108,7 @@ img{
   margin-right: 5%;
   margin-top: 40px;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
 
 }
@@ -122,8 +121,8 @@ img{
 
 .logo{
   display: flex;
-  height:35px;
-  width:35px;
+  height:30px;
+  width:auto;
   float: right;
   margin-top: 10px;
 }
@@ -136,14 +135,14 @@ img{
 
 .footertext h2 {
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
   color: #white;
   margin-left: 10px;
 }
 
 .footertext p {
   text-align: left;
-  font-size: 8px;
+  font-size: 10px;
   color: #white;
   margin-left: 10px;
 }
@@ -154,4 +153,10 @@ img{
   float: left;
   width: 20%;
   vertical-align: middle;
+
+}
+
+.link {
+  display: inline-block;
+  margin: 10px 0 15px 45px;
 }
