@@ -8,6 +8,7 @@
 .frontlogo {
   display: flex;
   justify-content: center;
+  padding-right: 50px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -22,7 +23,6 @@ h1 {
   text-align:center;
   margin-top: 80px;
 }
-
 p{
   font-family: 'Poppins';
   text-align: center;
@@ -42,12 +42,32 @@ p{
 }
 
 .navbar a{
-  display: block;
+  display: inline-block;
+  position: relative;
   color: brown;
   text-align: center;
   align-items: baseline;
   padding: 25px 20px;
+  margin: 20px;
   text-decoration: none;
+}
+
+.navbar a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: brown;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .butikken{
@@ -77,107 +97,4 @@ img{
   max-width: 600px;
   padding-left: 50px;
 
-}
-
-
-
-.btn {
-  padding: .3em .8em;
-  border: 1px solid #446d88;
-  background: #5F2813;
-  color: white;
-  box-shadow: 0 .05em .25em rgba(0,0,0,.5);
-  border-radius: .2em;
-  text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
-  font-size: 125%;
-  line-height: 1.5em;
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 200px;
-  background-color: #AE957E;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  overflow: hidden;
-
-}
-.wrapper {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 40px;
-  text-align: center;
-  justify-content: space-between;
-
-}
-
-.column {
-  display: inline-table;
-  float: left;
-  width: 20%;
-}
-
-.columnlogo {
-  float: left;
-  display: flex;
-  margin-right: 15px;
-  margin-top: 10px;
-}
-
-.footertext {
-  display: inline-block;
-  text-align: left;
-  float: left;
-}
-
-.column2 {
-  display: inline-flex;
-  float: left;
-  width: 20%;
-  vertical-align: middle;
-}
-
-.link {
-  display: inline-block;
-  margin: 10px 0 45px 45px;
-}
-
-.contactform {
-  float: left;
-  margin-left: 20%;
-}
-
-.contact {
-
-}
-
-.feedback-input {
-  color: black;
-  font-family: Poppins, sans-serif;
-  font-weight:300;
-  font-size: 12px;
-  border-radius: 3px;
-  line-height: 12px;
-  background-color: transparent;
-  border:1px solid #CC6666;
-  transition: all 0.2s;
-  padding: 7px;
-  margin-bottom: 10px;
-  width:80%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-textarea {
-  height: 50px;
-  line-height: 120%;
-  resize: vertical;
 }
