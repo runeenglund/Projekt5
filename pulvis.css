@@ -28,7 +28,7 @@ body{
 .maintitle {
   position: relative;
   text-align: center;
-
+  
 }
 
 .btn {
@@ -46,6 +46,52 @@ body{
   margin-bottom: 20px;
 }
 
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #AE957E;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+
+}
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.column {
+  display: inline-table;
+  float: left;
+  width: 20%;
+}
+
+.columnlogo {
+  float: left;
+  display: flex;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.footertext {
+  display: inline-block;
+  text-align: left;
+  
+}
+
+.column2 {
+  display: inline-flex;
+  float: left;
+  width: 20%;
+  vertical-align: middle;
+}
 
 h1 {
   font-size: 25px;
@@ -65,9 +111,38 @@ p {
 }
 
 
+
+.contactform {
+  float: left;
+  margin-left: 20%;
+}
+
+
+.feedback-input {
+  color: black;
+  font-family: Poppins, sans-serif;
+  font-weight:300;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 12px;
+  background-color: transparent;
+  border:1px solid #CC6666;
+  transition: all 0.2s;
+  padding: 7px;
+  margin-bottom: 10px;
+  width:80%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 50px;
+  line-height: 120%;
+  resize: vertical;
+}
+
 .containerforside {
   max-width: 3%;
-  flex-direction: column;
 }
 .forsidebillede {
   float: left;
@@ -85,7 +160,7 @@ padding: 10px;
 .textforside p {
   color: #5F2813;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   padding: 0px 100px 0px 750px;
   min-width: 300px;
   max-width: 750px;
