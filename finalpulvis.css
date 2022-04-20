@@ -109,7 +109,7 @@ img{
   margin-right: 5%;
   margin-top: 40px;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
 
 }
@@ -122,8 +122,8 @@ img{
 
 .logo{
   display: flex;
-  height:35px;
-  width:35px;
+  height:30px;
+  width:auto;
   float: right;
   margin-top: 10px;
 }
@@ -154,4 +154,10 @@ img{
   float: left;
   width: 20%;
   vertical-align: middle;
+
+}
+
+.link {
+  display: inline-block;
+  margin: 10px 0 25px 45px;
 }
