@@ -1,3 +1,7 @@
+body{
+  font-family: 'Poppins';
+}
+
 .form {
   float: left;
   margin-left: 20%;
