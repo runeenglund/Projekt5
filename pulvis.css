@@ -165,6 +165,7 @@ textarea {
 */
 .containerforside {
   max-width: 3%;
+  flex-direction: column;
 }
 .forsidebillede {
   float: left;
