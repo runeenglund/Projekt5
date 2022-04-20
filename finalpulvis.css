@@ -93,7 +93,6 @@ img{
 /* -----FOOTER------- */
 
 .footer {
-  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -110,20 +109,22 @@ img{
   margin-right: 5%;
   margin-top: 40px;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-direction: column;
 
 }
 
 .column {
-  display: inline-table;
+  display: flex;
   float: left;
   width: 20%;
 }
 
-.columnlogo {
-  float: left;
+.logo{
   display: flex;
-  margin-right: 15px;
+  height:30px;
+  width:auto;
+  float: right;
   margin-top: 10px;
 }
 
@@ -131,18 +132,32 @@ img{
   display: inline-block;
   text-align: left;
   float: left;
-
 }
+
+.footertext h2 {
+  text-align: left;
+  font-size: 13px;
+  color: #white;
+  margin-left: 10px;
+}
+
+.footertext p {
+  text-align: left;
+  font-size: 10px;
+  color: #white;
+  margin-left: 10px;
+}
+
 
 .column2 {
   display: inline-flex;
   float: left;
   width: 20%;
   vertical-align: middle;
+
 }
 
-.logo{
-  height:40px;
-  width:40px;
-  float: right;
+.link {
+  display: inline-block;
+  margin: 10px 0 15px 45px;
 }
