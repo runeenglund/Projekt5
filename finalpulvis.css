@@ -93,7 +93,6 @@ img{
 /* -----FOOTER------- */
 
 .footer {
-  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -111,26 +110,41 @@ img{
   margin-top: 40px;
   text-align: center;
   justify-content: space-between;
+  flex-direction: column;
 
 }
 
 .column {
-  display: inline-table;
+  display: flex;
   float: left;
   width: 20%;
 }
 
 .logo{
-  height:40px;
-  width:40px;
+  height:30px;
+  width:30px;
   float: right;
+  margin-top: 10px;
 }
 
 .footertext {
   display: inline-block;
   text-align: left;
   float: left;
+}
 
+.footertext h2 {
+  text-align: left;
+  font-size: 12px;
+  color: #white;
+  margin-left: 10px;
+}
+
+.footertext p {
+  text-align: left;
+  font-size: 8px;
+  color: #white;
+  margin-left: 10px;
 }
 
 
