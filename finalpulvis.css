@@ -129,7 +129,8 @@ img{
 }
 
 .column {
-  display: inline-table;
+  display: flex;
+  flex-direction: column;
   float: left;
   width: 20%;
 }
@@ -155,26 +156,8 @@ img{
   vertical-align: middle;
 }
 
-.mobilepaylogo {
-  float: left;
-  width:5px;
-  height:5px;
-}
 
-.clock1logo {
-  width: 5px;
-  height: 5px;
-  float: left;
-}
-
-.phonelogo {
-  width: 1px;
-  height: 1px;
-  float: left;
-}
-
-.mappinlogo {
-  width: 5px;
-  height: 5px;
-  float: left;
+.logo{
+  height:40px;
+  width:40px; 
 }
