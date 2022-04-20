@@ -8,9 +8,16 @@
 .frontlogo {
   display: flex;
   justify-content: center;
-  padding-right: 50px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.frontlogo img {
+  padding: 0;
+}
+
+.frontlogo a {
+  padding: 0;
 }
 
 .butikfront{
