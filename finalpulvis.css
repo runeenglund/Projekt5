@@ -94,7 +94,22 @@ img{
 
 }
 
+.brownbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  width: 300px;
+  background: #AE957E;
+  padding: 50px;
+  margin: 20px;
+}
 
+.brownboxtext{
+  display: flex;
+  justify-content: center;
+
+}
 /* -----FOOTER------- */
 
 .footer {
