@@ -24,7 +24,7 @@
 .maintitle {
   position: relative;
   text-align: center;
-  
+
 }
 
 .btn {
@@ -72,14 +72,14 @@
 .columnlogo {
   float: left;
   display: flex;
-  margin-right: 15px;
+  margin-right: -50px;
   margin-top: 10px;
 }
 
 .footertext {
   display: inline-block;
   text-align: left;
-  
+
 }
 
 .column2 {
