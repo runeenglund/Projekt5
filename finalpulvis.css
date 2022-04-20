@@ -14,7 +14,6 @@ body{
 .frontlogo {
   display: flex;
   justify-content: center;
-  padding-right: 50px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -86,7 +85,7 @@ body{
 
 img{
   max-width: 600px;
-  padding-left: 50px;
+  padding-left: 0px;
 
 }
 
@@ -131,7 +130,6 @@ img{
 .footertext {
   display: inline-block;
   text-align: left;
-  float: left;
 }
 
 .footertext h2 {
