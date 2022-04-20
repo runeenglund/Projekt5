@@ -75,10 +75,9 @@ section {
   width: 100%;
 }
 
-
-.col100 {
-  position: relative;
-  width: 100%;
+.imgBx {
+  width: 100px;
+  height: auto;
 }
 
 
