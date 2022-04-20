@@ -5,10 +5,6 @@
   and (min-resolution: 192dpi) {
 }
 
-body{
-  font-family: 'Poppins';
-}
-
 .frontlogo {
   position: relative;
   text-align: center;
@@ -28,7 +24,7 @@ body{
 .maintitle {
   position: relative;
   text-align: center;
-  
+
 }
 
 .btn {
@@ -83,7 +79,7 @@ body{
 .footertext {
   display: inline-block;
   text-align: left;
-  
+
 }
 
 .column2 {
@@ -94,14 +90,19 @@ body{
 }
 
 h1 {
-  font-size: 25px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 60px;
+  text-align:center;
+  margin-top: 80px;
 }
 
 h2 {
+   font-family: 'Poppins';
    font-size: 12px;
 }
 
 p {
+  font-family: 'Poppins';
   font-size: 12px;
 
 }

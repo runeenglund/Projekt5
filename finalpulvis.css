@@ -5,10 +5,6 @@
   and (min-resolution: 192dpi) {
 }
 
-body{
-  font-family: 'Poppins';
-}
-
 /*------HEADER------*/
 
 .frontlogo {
@@ -31,6 +27,7 @@ h1 {
 }
 
 p{
+  font-family: 'Poppins';
   text-align: center;
   margin-bottom: 200px;
 }
@@ -40,6 +37,7 @@ p{
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Poppins';
 }
 
 .navbar li{
@@ -88,10 +86,12 @@ p{
 }
 
 .butiktekst h2 {
+   font-family: 'Poppins';
    font-size: 20px;
 }
 
 .butiktekst p {
+  font-family: 'Poppins';
   font-size: 17px;
   text-align: left;
 }
@@ -101,6 +101,8 @@ img{
   padding-left: 50px;
 
 }
+
+/* ---- HEADER SLUT ----_*/
 
 /* -----FOOTER------- */
 
@@ -127,7 +129,8 @@ img{
 }
 
 .column {
-  display: inline-table;
+  display: flex;
+  flex-direction: column;
   float: left;
   width: 20%;
 }
@@ -151,4 +154,10 @@ img{
   float: left;
   width: 20%;
   vertical-align: middle;
+}
+
+
+.logo{
+  height:40px;
+  width:40px;
 }
