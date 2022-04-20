@@ -5,6 +5,10 @@
   and (min-resolution: 192dpi) {
 }
 
+body{
+  font-family: 'Poppins';
+}
+
 .frontlogo {
   position: relative;
   text-align: center;
@@ -44,17 +48,14 @@
 
 
 h1 {
-  font-family: 'Poppins';
   font-size: 25px;
 }
 
 h2 {
-   font-family: 'Poppins';
    font-size: 12px;
 }
 
 p {
-  font-family: 'Poppins';
   font-size: 12px;
 
 }
