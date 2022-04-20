@@ -24,7 +24,7 @@
 .maintitle {
   position: relative;
   text-align: center;
-  
+
 }
 
 .btn {
@@ -79,7 +79,7 @@
 .footertext {
   display: inline-block;
   text-align: left;
-  
+
 }
 
 .column2 {
@@ -90,8 +90,10 @@
 }
 
 h1 {
-  font-family: 'Poppins';
-  font-size: 25px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 60px;
+  text-align:center;
+  margin-top: 80px;
 }
 
 h2 {
