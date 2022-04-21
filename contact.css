@@ -85,10 +85,12 @@ input[type=submit]:hover {
   float: left;
   padding: 5px;
   text-align: left;
+
 }
 
 .infotext h2{
   font-size: 20px;
+  
 }
 
 .infotext p{
