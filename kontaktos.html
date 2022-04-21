@@ -6,7 +6,7 @@
     <title>PULVIS</title>
     <link rel="stylesheet" href="finalpulvis.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="" href="drowdown.js">
+    <link rel="stylesheet" href="drowdown.js">
     <script src="../Projekt5/emma.js" defer></script>
   </head>
   <body>
@@ -34,10 +34,12 @@
 
       <div class="form">
         <form class="contactform">
-          <input name="email" type="email" class="feedback-input" placeholder="Email..." />
-          <input name="text" type="text" class="feedback-input" placeholder="Emne..." />
+          <input name="email" type="email" class="feedback-input" placeholder="Navn:" />
+          <input name="email" type="email" class="feedback-input" placeholder="Email:" />
+            <select id="vælgEmne" class="feedback-input" placeholder ="Emne..." required>
+            </select>
           <textarea name="text" class="feedback-input" placeholder="Skriv..."></textarea>
-          <button class="sendknap" onclick="myFunction(event)">Send</button>
+          <button class="sendknap" type="submit" value="Send" onclick="myFunction()">Send</button>
         </form>
     <p id="demo"></p>
 
