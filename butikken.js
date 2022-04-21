@@ -8,7 +8,7 @@ function myFunction() {
   }
 }
 
-// SlideShow start //
+// Galleri start //
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -36,4 +36,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// Slideshow SLUT //
+// Galleri slut SLUT //
