@@ -5,6 +5,8 @@
   and (min-resolution: 192dpi) {
 }
 
+
+
 body{
   font-family: 'Poppins';
 }
@@ -14,7 +16,6 @@ body{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 .headertext {
@@ -22,28 +23,33 @@ body{
   justify-content: space-around;
   text-align: center;
   overflow: hidden;
-
 }
 
 .maintitle {
   position: relative;
   text-align: center;
-
 }
 
 .btn {
   padding: .3em .8em;
-  border: 1px solid #446d88;
+  border: 0;
   background: #5F2813;
   color: white;
   box-shadow: 0 .05em .25em rgba(0,0,0,.5);
   border-radius: .2em;
   text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+  text-decoration-line: none;
   font-size: 125%;
   line-height: 1.5em;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .fronttext {
@@ -58,7 +64,6 @@ body{
   text-align: center;
   margin: 0;
 }
-
 
 section {
   padding: 30px 70px 50px 70px;
@@ -80,7 +85,6 @@ section {
   color: #5F2813;
   font-size: 14px;
   text-align: left;
-
 }
 
 .row h2{
@@ -90,10 +94,11 @@ section {
   padding: 10px;
   }
 
-  #deadbo imgbx {
-    width: 322px;
-    height: 299px;
-  }
+.col50 .imgbx {
+  float:left;
+  display:block
+}
+
 
   .col50 h2 {
     text-align: left;
@@ -101,6 +106,9 @@ section {
   }
 
   #deadbo2 img {
-    width: 300;
-    height: 250;
+    max-width: 100%;
+    height: auto;
   }
+
+
+

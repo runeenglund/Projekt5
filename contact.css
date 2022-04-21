@@ -35,7 +35,6 @@ body{
 .feedback-input:focus {
   border:2px
   solid #black;
-
 }
 
 textarea {
@@ -55,7 +54,6 @@ textarea {
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
-
   margin-top:-4px;
   font-weight:700;
 }
@@ -65,11 +63,10 @@ input[type=submit]:hover {
   color: #F7F1E9;
 }*/
 
-
 .contactinfo {
   display: grid;
   background: #AE957E;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px;
   grid-gap: 1.5rem;
   position: relative;
@@ -92,7 +89,9 @@ input[type=submit]:hover {
 }
 
 .infotext p{
+  text-align: left;
   font-size: 14px;
+  margin-bottom: auto;
 }
 
 .infoboxlogo{
