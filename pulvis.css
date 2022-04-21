@@ -5,6 +5,8 @@
   and (min-resolution: 192dpi) {
 }
 
+
+
 body{
   font-family: 'Poppins';
 }
@@ -36,6 +38,7 @@ body{
   box-shadow: 0 .05em .25em rgba(0,0,0,.5);
   border-radius: .2em;
   text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+  text-decoration-line: none;
   font-size: 125%;
   line-height: 1.5em;
   text-align: center;
@@ -91,10 +94,11 @@ section {
   padding: 10px;
   }
 
-  #deadbo imgbx {
-    width: 322px;
-    height: 299px;
-  }
+.col50 .imgbx {
+  float:left;
+  display:block
+}
+
 
   .col50 h2 {
     text-align: left;
@@ -102,6 +106,9 @@ section {
   }
 
   #deadbo2 img {
-    width: 300;
-    height: 250;
+    max-width: 100%;
+    height: auto;
   }
+
+
+
