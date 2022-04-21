@@ -68,7 +68,7 @@ input[type=submit]:hover {
 
 .contactinfo {
   display: grid;
-  background: #F7F1E9;
+  background: #AE957E;
   border-radius: 20px;
   padding: 10px;
   grid-gap: 1.5rem;
@@ -89,11 +89,9 @@ input[type=submit]:hover {
 
 .infotext h2{
   font-size: 20px;
-  color: #5F2813;
 }
 
 .infotext p{
-  color: #5F2813;
   font-size: 14px;
 }
 
