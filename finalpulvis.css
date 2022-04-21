@@ -7,8 +7,6 @@
 
 body{
   font-family: 'Poppins';
-  background-color: white;
-  z-index: 1;
 }
 
 /*------HEADER------*/
@@ -194,7 +192,6 @@ body{
 /* -----FOOTER------- */
 
 .footer {
-  z-index: 200;
   left: 0;
   bottom: 0;
   width: 100%;
