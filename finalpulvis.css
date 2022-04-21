@@ -1,5 +1,5 @@
 @media screen
-  and (min-device-width: 620px)
+  and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
@@ -8,7 +8,6 @@
 body{
   font-family: 'Poppins';
 }
-
 
 /*------HEADER------*/
 
@@ -168,7 +167,7 @@ body{
 }
 
 #about img {
-  max-width: 100%;
+  max-width: 600px;
 
 }
 
@@ -189,7 +188,6 @@ body{
  position: relative;
 }
 
-}
 /* -----FOOTER------- */
 
 .footer {
