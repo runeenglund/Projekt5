@@ -4,12 +4,12 @@ body{
 
 .form {
   float: left;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .undertekst{
   text-align: left;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .contacttext{
@@ -44,7 +44,7 @@ textarea {
   resize: vertical;
 }
 
-[type="submit"] {
+.sendknap {
   font-family: Poppins, sans-serif;
   width: 80%;
   background: #5F2813;
@@ -59,11 +59,11 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-
+/*
 input[type=submit]:hover {
   background-color: #AE957E;
   color: #F7F1E9;
-}
+}*/
 
 
 .contactinfo {
@@ -71,10 +71,10 @@ input[type=submit]:hover {
   background: #F7F1E9;
   border-radius: 20px;
   padding: 10px;
-  margin-right: 20%;
   grid-gap: 1.5rem;
   position: relative;
   margin-bottom: 50px;
+  margin-right: 15%;
 }
 
 .contactbox{
@@ -87,10 +87,20 @@ input[type=submit]:hover {
   text-align: left;
 }
 
+.infotext h2{
+  font-size: 20px;
+  color: #5F2813;
+}
+
+.infotext p{
+  color: #5F2813;
+  font-size: 14px;
+}
+
 .infoboxlogo{
   float: left;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 40px;
   height: 40px;
 }
