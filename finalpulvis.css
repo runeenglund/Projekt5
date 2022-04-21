@@ -11,69 +11,105 @@ body{
 
 /*------HEADER------*/
 
-.frontlogo {
+
+*{
+  list-style: none;
+}
+
+.main-nav {
+  font-family: poppins;
   display: flex;
+  height: 8vh;
   justify-content: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  align-items: center;
+  color: #5f2813;
+  background: none;
 }
-
-.pulvislogo {
-  width: 92.5px;
-  height: 65px;
-}
-
-.frontlogo img {
-  width: 92.5px;
-  height: 65px;
-}
-
-
-
-.butikfront{
-  background-image: url("crap.png");
-}
-
-.navbar ul {
-  list-style:none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.navbar li{
-  display: inline-block;
-}
-
-.navbar a{
-  display: inline-block;
-  position: relative;
-  color: brown;
-  text-align: center;
-  align-items: baseline;
-  padding: 25px 20px;
-  margin: 0px;
+.main-nav a{
+  margin:0;
+  padding:0;
   text-decoration: none;
+  box-sizing: border-box;
+  color:inherit;
 }
 
-.navbar a:after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
+.logologo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding: 10px;
+
+}
+.nav-links {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.burger {
+  display: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.line {
   height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: brown;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  width: 35px;
+  margin: 0.5rem 0;
+  background: #5f2813;
+  transition: transform 0.75s ease, opacity 0.75s ease;
 }
 
-.navbar a:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.nav-links a:hover{
+  color: #AE957E;
 }
 
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+.main-nav.show .line1 {
+  transform: translate(-10px) rotate(45deg) translate(15px);
+}
+.main-nav.show .line2 {
+  opacity: 0;
+}
+.main-nav.show .line3 {
+  transform: translate(-10px) rotate(-45deg) translate(15px);
+}
+.main-nav.show .nav-links {
+  transform: translateX(0%);
+}
+@media screen and (max-width: 800px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    top: 25vh;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    transform: translateX(100%);
+    transition: transform 1s ease;
+
+  }
+}
+
+
+
+/* --- HEADER ----*/
 .butikken{
   display: flex;
   flex-direction: row;
