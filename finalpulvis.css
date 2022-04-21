@@ -130,23 +130,26 @@ body{
   }
   .nav-links {
     position: fixed;
-    top: 25vh;
+    top: 15vh;
     right: 0;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: none;
+    background: white;
     transform: translateX(100%);
     transition: transform 1s ease;
-
+    z-index: 9999;
   }
 }
 
 
 
-/* --- HEADER ----*/
+/* --- HEADER slut ----*/
+
+
+
 .butikken{
   display: flex;
   flex-direction: row;
