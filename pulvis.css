@@ -14,7 +14,6 @@ body{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 .headertext {
@@ -22,13 +21,11 @@ body{
   justify-content: space-around;
   text-align: center;
   overflow: hidden;
-
 }
 
 .maintitle {
   position: relative;
   text-align: center;
-
 }
 
 .btn {
@@ -59,7 +56,6 @@ body{
   margin: 0;
 }
 
-
 section {
   padding: 30px 70px 50px 70px;
 }
@@ -80,7 +76,6 @@ section {
   color: #5F2813;
   font-size: 14px;
   text-align: left;
-
 }
 
 .row h2{
