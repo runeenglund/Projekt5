@@ -46,7 +46,46 @@ body{
   width: 40%;
   justify-content: space-around;
 }
+.nav-links ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins';
+}
 
+.nav-links li{
+  display: inline-block;
+}
+
+.nav-links a{
+  display: inline-block;
+  position: relative;
+  color: brown;
+  text-align: center;
+  align-items: baseline;
+  padding: 25px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: brown;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-links a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .burger {
   display: none;
   padding: 0.5rem;
@@ -58,10 +97,6 @@ body{
   margin: 0.5rem 0;
   background: #5f2813;
   transition: transform 0.75s ease, opacity 0.75s ease;
-}
-
-.nav-links a:hover{
-  color: #AE957E;
 }
 
 @media screen and (max-width: 800px) {
