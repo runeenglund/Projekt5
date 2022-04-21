@@ -255,10 +255,11 @@ body{
 
 
 .column2 {
-  display: inline-flex;
   float: left;
   width: 20%;
   vertical-align: middle;
+  display: flex;
+  flex-direction: row;
 
 }
 
