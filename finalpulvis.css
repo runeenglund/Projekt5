@@ -101,19 +101,21 @@ body{
 }
 
 .brownbox {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  border-radius: 25px;
-  width: 300px;
+  display: block;
   background: #AE957E;
-  padding: 50px;
-  margin: 20px;
+  border-radius: 25px;
+  padding: 75px;
+  margin-right: 20%;
+  margin-left: 20%;
+  position: relative;
+  margin-bottom: 50px;
+
+
 }
 
-.brownboxtext{
-  display: flex;
-  justify-content: center;
+.brownboxtext {
+ position: relative;
+}
 
 }
 /* -----FOOTER------- */
