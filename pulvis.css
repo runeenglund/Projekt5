@@ -36,6 +36,7 @@ body{
   box-shadow: 0 .05em .25em rgba(0,0,0,.5);
   border-radius: .2em;
   text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+  text-decoration-line: none;
   font-size: 125%;
   line-height: 1.5em;
   text-align: center;
