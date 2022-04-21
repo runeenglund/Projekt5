@@ -201,8 +201,9 @@ body{
   background-color: #AE957E;
   color: white;
   text-align: center;
-  display: inline-block;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
 
 }
 .wrapper {
@@ -239,6 +240,8 @@ body{
   font-size: 13px;
   color: #white;
   margin-left: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .footertext p {
@@ -246,6 +249,8 @@ body{
   font-size: 10px;
   color: #white;
   margin-left: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 
