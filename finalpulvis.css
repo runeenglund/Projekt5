@@ -175,16 +175,14 @@ body{
 }
 
 .brownbox {
-  display: block;
+  display: grid;
   background: #AE957E;
   border-radius: 25px;
-  padding: 75px;
+  padding: 30px;
   margin-right: 20%;
   margin-left: 20%;
   position: relative;
   margin-bottom: 50px;
-
-
 }
 
 .brownboxtext {

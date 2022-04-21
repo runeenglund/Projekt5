@@ -69,7 +69,7 @@ input[type=submit]:hover {
 .contactinfo {
   display: grid;
   background: #AE957E;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px;
   grid-gap: 1.5rem;
   position: relative;
