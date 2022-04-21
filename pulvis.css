@@ -33,7 +33,7 @@ body{
 
 .btn {
   padding: .3em .8em;
-  border: 1px solid #446d88;
+  border: 0;
   background: #5F2813;
   color: white;
   box-shadow: 0 .05em .25em rgba(0,0,0,.5);
