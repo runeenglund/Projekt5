@@ -90,11 +90,13 @@ input[type=submit]:hover {
 
 .infotext h2{
   font-size: 20px;
-  
+
 }
 
 .infotext p{
+  text-align: left;
   font-size: 14px;
+  margin-bottom: auto;
 }
 
 .infoboxlogo{
