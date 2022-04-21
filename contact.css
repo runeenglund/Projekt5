@@ -35,7 +35,6 @@ body{
 .feedback-input:focus {
   border:2px
   solid #black;
-
 }
 
 textarea {
@@ -55,7 +54,6 @@ textarea {
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
-
   margin-top:-4px;
   font-weight:700;
 }
@@ -64,7 +62,6 @@ input[type=submit]:hover {
   background-color: #AE957E;
   color: #F7F1E9;
 }*/
-
 
 .contactinfo {
   display: grid;
@@ -85,12 +82,10 @@ input[type=submit]:hover {
   float: left;
   padding: 5px;
   text-align: left;
-
 }
 
 .infotext h2{
   font-size: 20px;
-
 }
 
 .infotext p{

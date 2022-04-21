@@ -76,10 +76,8 @@ p{
 
 img{
   display: flex;
-
   max-width: 600px;
   padding-left: 50px;
-
 }
 
 @media (max-width: 768px) {
@@ -107,4 +105,3 @@ img{
   transform: translateX(0%);
 }
   /*------ navbar slut  ----*/
-}
