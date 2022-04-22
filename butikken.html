@@ -7,9 +7,8 @@
     <title>PULVIS</title>
     <link rel="stylesheet" href="butikken.css">
     <link rel="stylesheet" href="finalpulvis.css">
-    <link rel="stylesheet" href="pulvis.css">
-    <link rel="" href="">
     <script src="butikken.js"></script>
+    <script src="navbar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -20,7 +19,7 @@
     <!--- majas header start -->
     <header>
       <div class="navbar">
-        <div class="logologo"><img src="images/logopul.png" alt="logo"></div>
+        <div class="logologo" onclick="window.location.href='index.html'"><img src="images/logopul.png" alt="logo"></div>
           <nav class="main-nav">
               <ul class="nav-links">
                   <li><a href="deadbo.html">Dødsbo</a></li>
@@ -63,13 +62,13 @@
     <img src="images/img1.JPG" style="width:100%">
     <div class="text">Vores lille biblotek</div>
   </div>
-  
+
   <div class="mySlides fade">
     <div class="numbertext">2 / 10</div>
     <img src="images/img2.JPG" style="width:100%">
     <div class="text">Smukke vaser fra butikken</div>
   </div>
-  
+
   <div class="mySlides fade">
     <div class="numbertext">3 / 10</div>
     <img src="images/img3.JPG" style="width:100%">
@@ -117,16 +116,16 @@
     <img src="images/img12.jpg" style="width:100%">
     <div class="text">Kig forbi butik Pulvis</div>
   </div>
-  
+
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
-  
+
   </div>
   <br>
-  
+
   <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
     <span class="dot" onclick="currentSlide(4)"></span>
     <span class="dot" onclick="currentSlide(5)"></span>
@@ -134,12 +133,13 @@
     <span class="dot" onclick="currentSlide(7)"></span>
     <span class="dot" onclick="currentSlide(8)"></span>
     <span class="dot" onclick="currentSlide(9)"></span>
-    <span class="dot" onclick="currentSlide(10)"></span> 
+    <span class="dot" onclick="currentSlide(10)"></span>
   </div>
-  
+
 
 <!-- Galleri SLUT -->
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Til toppen</button>
       <!-- Footer START -->
       <footer>
             <div class="footer">
