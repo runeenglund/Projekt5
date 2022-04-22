@@ -5,79 +5,6 @@
   and (min-resolution: 192dpi) {
 }
 */
-.frontlogo {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.frontlogo img {
-  padding: 0;
-}
-
-.frontlogo a {
-  padding: 0;
-}
-
-.butikfront{
-  background-image: url("crap.png");
-}
-
-h1 {
-  font-family: 'Ms Madi', cursive;
-  font-size: 60px;
-  text-align:center;
-  margin-top: 80px;
-}
-
-p{
-  font-family: 'Poppins';
-  text-align: left;
-}
-
-.burger{
-  display: none;
-}
-
-.burger div{
-  width: 25px;
-  height: 3px;
-  background-color: brown;
-  margin: 5px;
-
-}
-/*------ navbar  ----*/
-
-
-/*------ indhold på butik css ----*/
-.butikken{
-  display: flex;
-  flex-direction: row;
-}
-
-.butiktekst{
-  display: flex;
-  flex-direction: column;
-  min-width: 400px;
-}
-
-.butiktekst h2 {
-   font-family: 'Poppins';
-   font-size: 20px;
-}
-
-.butiktekst p {
-  font-family: 'Poppins';
-  font-size: 17px;
-  text-align: left;
-}
-
-.butikken img{
-  display: inline-block;
-  width: 500px;
-  height: 350px;
-}
 
 
 
@@ -136,27 +63,7 @@ section {
 
   }
 
-  /*------ navbar start ----*/
-.nav nav-links {
-  position: absolute;
-  right:0px;
-  height: 92vh;
-  top:8vh;
-  background-color: brown;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  transform: translateX(100%);
-}
-.burger{
-  display: block;
-}
 
-.nav-active{
-  transform: translateX(0%);
-}
-  /*------ navbar slut  ----*/
 
   /* ------ Galleri START ------ */
   * {
