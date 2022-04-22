@@ -264,3 +264,17 @@ body{
   display: inline-block;
   margin: 10px 0 15px 45px;
 }
+
+
+@media screen and (max-width: 600px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:100%;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
