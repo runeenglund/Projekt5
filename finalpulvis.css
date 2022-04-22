@@ -99,7 +99,7 @@ body{
   height: 2px;
   width: 35px;
   margin: 0.5rem 0;
-  background: #5f2813;
+
   transition: transform 0.75s ease, opacity 0.75s ease;
 }
 
@@ -134,7 +134,7 @@ body{
   .nav-links {
     position: fixed;
     top: 15vh;
-    right: 0;
+    right: auto;
     height: 40vh;
     width: 100%;
     flex-direction: column;
@@ -265,3 +265,16 @@ body{
   margin: 10px 0 15px 45px;
 }
 
+
+@media screen and (max-width: 600px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:100%;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}

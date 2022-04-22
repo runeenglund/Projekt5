@@ -132,12 +132,6 @@ section {
 
   }
 
-
-@media (max-width: 768px) {
-.body{
-  overflow-x: hidden;
-}
-
   /*------ navbar start ----*/
 .nav nav-links {
   position: absolute;
