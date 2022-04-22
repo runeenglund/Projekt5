@@ -274,6 +274,10 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .butikindhold{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .butiktekst{
     padding-left: 0;
     padding-right: 0;
