@@ -99,7 +99,7 @@ body{
   height: 2px;
   width: 35px;
   margin: 0.5rem 0;
-  background: #5f2813;
+
   transition: transform 0.75s ease, opacity 0.75s ease;
 }
 
@@ -264,4 +264,3 @@ body{
   display: inline-block;
   margin: 10px 0 15px 45px;
 }
-
