@@ -81,7 +81,7 @@ p{
 
 
 
- /*Indhold på deadbo */ 
+ /*Indhold på deadbo */
 
 section {
   padding: 30px 70px 50px 70px;
@@ -99,10 +99,12 @@ section {
   width: 100%;
 }
 
+
 .row p {
   color: #5F2813;
   font-size: 14px;
   text-align: left;
+  margin-left: 60px;
 }
 
 .row h2{
@@ -114,18 +116,20 @@ section {
 
 .col50 .imgbx {
   float:left;
-  display:block
+  display:block;
 }
-
 
   .col50 h2 {
     text-align: left;
     padding: 0;
+    margin-left: 60px;
   }
 
   #deadbo2 img {
     max-width: 100%;
-    height: auto;
+    height: 400px;
+    margin-left: 60px;
+
   }
 
 
