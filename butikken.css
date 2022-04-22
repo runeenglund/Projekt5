@@ -101,9 +101,7 @@
     .brownbox {
       width: 60%;
     }
-    .col50{
-      width: 60%
-    }
+
     .griiid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
@@ -113,19 +111,6 @@
       'c'
       'd';
 
-    }
-    .col50 h2{
-      grid-area: a;
-      font-size: 20px;
-      color: #5F2813;
-      padding: 10px;
-    }
-
-    .col50 p{
-      grid-area:a;
-      color: #5F2813;
-      font-size: 14px;
-      text-align: left;
     }
 
     .billedejc{
