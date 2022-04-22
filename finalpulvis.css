@@ -103,11 +103,7 @@ body{
   transition: transform 0.75s ease, opacity 0.75s ease;
 }
 
-@media screen and (max-width: 800px) {
-  .nav-links {
-    width: 60%;
-  }
-}
+
 
 .main-nav.show .line1 {
   transform: translate(-10px) rotate(45deg) translate(15px);
@@ -121,11 +117,7 @@ body{
 .main-nav.show .nav-links {
   transform: translateX(0%);
 }
-@media screen and (max-width: 800px) {
-  .nav-links {
-    width: 60%;
-  }
-}
+
 
 @media screen and (max-width: 600px) {
   .burger {
