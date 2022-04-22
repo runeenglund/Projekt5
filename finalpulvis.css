@@ -99,6 +99,7 @@ body{
   height: 2px;
   width: 35px;
   margin: 0.5rem 0;
+  background-color: #5f2813;
 
   transition: transform 0.75s ease, opacity 0.75s ease;
 }
@@ -136,6 +137,10 @@ body{
     transform: translateX(100%);
     transition: transform 1s ease;
     z-index: 9999;
+  }
+  .nav-links li{
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -269,4 +274,18 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .butikindhold{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .butiktekst{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logologo  img{
+    width: 20%;
+
+  }
+
 }
