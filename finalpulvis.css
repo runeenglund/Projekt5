@@ -330,7 +330,6 @@ section {
   color: white;
   text-align: center;
   overflow: hidden;
-  display: flex;
   flex-direction: row;
 }
 
