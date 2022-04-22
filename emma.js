@@ -6,6 +6,6 @@ function myFunction(e) {
     txt = "Besked annulleret";
   }
   document.getElementById("demo").innerHTML = txt;
-  e.preventDefault(e)
-  console.log()
+  e.preventDefault()
+  console.log(e)
 }
