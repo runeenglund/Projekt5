@@ -79,12 +79,61 @@ p{
   height: 350px;
 }
 
-/*
+
+
+ /*Indhold på deadbo */ 
+
+section {
+  padding: 30px 70px 50px 70px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col50 {
+  position: relative;
+  width: 100%;
+}
+
+.row p {
+  color: #5F2813;
+  font-size: 14px;
+  text-align: left;
+}
+
+.row h2{
+  text-align: center;
+  font-size: 20px;
+  color: #5F2813;
+  padding: 10px;
+  }
+
+.col50 .imgbx {
+  float:left;
+  display:block
+}
+
+
+  .col50 h2 {
+    text-align: left;
+    padding: 0;
+  }
+
+  #deadbo2 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
 @media (max-width: 768px) {
 .body{
   overflow-x: hidden;
 }
-*/
+
   /*------ navbar start ----*/
 .nav nav-links {
   position: absolute;
@@ -113,15 +162,15 @@ p{
   }
   body {font-family: poppins; margin:0}
   .mySlides {display: none}
-  
-  
+
+
   /* Slideshow container */
   .slideshow-container {
     max-width: 500px;
     position: relative;
     margin: auto;
   }
-  
+
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -137,18 +186,18 @@ p{
     border-radius: 10px 3px 3px 10px;
     user-select: none;
   }
-  
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: #5f2813;
   }
-  
+
   /* Caption text */
   .text {
     color: #f2f2f2;
@@ -159,7 +208,7 @@ p{
     width: 100%;
     text-align: center;
   }
-  
+
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
@@ -168,7 +217,7 @@ p{
     position: absolute;
     top: 0;
   }
-  
+
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -180,26 +229,26 @@ p{
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
+
   .active, .dot:hover {
     background-color: #717171;
   }
-  
+
   /* Fading animation */
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   /* On smaller screens, decrease text size */
 
   @media only screen and (max-width: 1080px) {
     .prev, .next,.text {font-size: 11px}
-  
-  
+
+
   /* ------ Galleri SLUT ------ */
