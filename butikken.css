@@ -10,38 +10,7 @@
 
  /*Indhold på deadbo */
 
-section {
-  padding: 30px 70px 50px 70px;
-}
-
-.row {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.row .col50 {
-  position: relative;
-  width: 100%;
-}
-
-
-.row p {
-  color: #5F2813;
-  font-size: 14px;
-  text-align: left;
-  margin-left: 60px;
-}
-
-.row h2{
-  text-align: center;
-  font-size: 20px;
-  color: #5F2813;
-  padding: 10px;
-  }
-
-.col50 .imgbx {
+.dead .imgbx {
   float:left;
   display:block;
 }
@@ -50,7 +19,7 @@ section {
   height: 400px;
   margin-left: 60px;
 }
-  .col50 h2 {
+  .dead h2 {
     text-align: left;
     padding: 0;
     margin-left: 60px;

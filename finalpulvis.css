@@ -206,39 +206,64 @@ body{
   text-align: center;
 }
 
-.btn {
-  padding: .3em .8em;
-  border: 0;
-  background: #5F2813;
-  color: white;
-  box-shadow: 0 .05em .25em rgba(0,0,0,.5);
-  border-radius: .2em;
-  text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
-  text-decoration-line: none;
-  font-size: 125%;
-  line-height: 1.5em;
+/* ----- INDEX.HTML -------*/
+section {
+  padding: 30px 70px 50px 70px;
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col50 {
+  position: relative;
+  width: 100%;
+}
+
+
+.row p {
+  color: #5F2813;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.row h2{
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #5F2813;
+  padding: 10px;
+  }
+.btn {
+  background-color: #5F2813;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+
 }
 
 .fronttext {
   font-family: 'Ms Madi', cursive;
   font-size: 60px;
   text-align:center;
-  margin: 0;
+  margin-top: 50px;
 }
 
 .undertitel{
   font-size: 12px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 #myBtn {
@@ -335,7 +360,12 @@ body{
   margin: 10px 0 15px 45px;
 }
 
-
+@media screen and (max-width:900px) {
+  .row{
+    flex-direction: column-reverse;
+  }
+  .col
+}
 @media screen and (max-width: 600px) {
   .footer{
     display: flex;
