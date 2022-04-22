@@ -134,7 +134,7 @@ body{
   .nav-links {
     position: fixed;
     top: 15vh;
-    right: 0;
+    right: auto;
     height: 40vh;
     width: 100%;
     flex-direction: column;
