@@ -266,6 +266,10 @@ section {
   margin-bottom: 50px;
 }
 
+.col50{
+
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -419,5 +423,7 @@ section {
     width: 20%;
 
   }
-
+  #about img{
+    width:100%;
+  }
 }
