@@ -42,6 +42,7 @@ body{
   padding: 10px;
 }
 
+
 .nav-links {
   display: flex;
   width: 40%;
@@ -225,6 +226,8 @@ section {
 .row .col50 {
   position: relative;
   width: 100%;
+  margin-right: 40px;
+
 }
 
 
@@ -232,7 +235,7 @@ section {
   color: #5F2813;
   font-size: 14px;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .row h2{
