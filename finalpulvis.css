@@ -206,7 +206,7 @@ body{
   text-align: center;
 }
 
-/* ----- INDEX.HTML -------*/
+/* ----- INDEX.HTML START -------*/
 section {
   padding: 30px 70px 50px 70px;
 }
@@ -287,6 +287,35 @@ section {
 #myBtn:hover {
   background-color: rgb(255, 102, 0);
 }
+
+/* ----- INDEX.HTML -------*/
+
+ /*--------- DEADBO START ----------*/
+
+.dead .imgbx {
+  float:left;
+  display:block;
+}
+.billedejc{
+  max-width: 100%;
+  height: 400px;
+  margin-left: 60px;
+}
+  .dead h2 {
+    text-align: left;
+    padding: 0;
+    margin-left: 60px;
+  }
+
+  #deadbo2 img {
+    max-width: 100%;
+    height: 400px;
+    margin-left: 60px;
+
+  }
+
+   /*--------- DEADBO SLUT ----------*/
+
 /* -----FOOTER------- */
 
 .footer {
