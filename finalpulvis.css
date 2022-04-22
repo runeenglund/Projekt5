@@ -122,6 +122,7 @@ body{
 @media screen and (max-width: 600px) {
   .burger {
     display: block;
+    width: 5%;
   }
   .nav-links {
     position: fixed;
@@ -263,10 +264,22 @@ body{
     display: flex;
     flex-direction: column;
     height: auto;
-    width:100%;
+    width:125%;
   }
   .wrapper{
     display: flex;
     flex-direction: column;
   }
+  .butiktekst{
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+  .logologo  img{
+    float: left;
+    width: 25%;
+  }
+
 }
