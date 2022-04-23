@@ -80,7 +80,10 @@
 
     <div class="button">
       <p style="font-size:30px; text-decoration:underline;">Buttons:</p>
-      <button class="btn" button> button</button>
+      <button class="btn" button> button </button>
+      <p style="font-size:20px;"> HTML </p>
+      <p style="white-space: pre;">< a href="kontaktos.html" >< button class="btn">Kontakt os < /button > < /a ></p>
+      <p style="font-size:20px;"> CSS </p>
       <p style="white-space: pre;">.btn {
           padding: .3em .8em;
           border: 0;
@@ -175,9 +178,11 @@
         <p style="white-space: pre;">eks. < img class="logo" src="../images/clock1.png" alt="clock" style="margin-right:30px;" ></p>
       </div>
 
-            <br>
-            <hr>
+      <br>
+      <hr>
 
+      <div class="forms">
+          <p style="font-size:30px; text-decoration:underline;">Input :</p>
             <div class="form">
               <form class="contactform">
                 <input name="email" type="email" class="feedback-input" placeholder="Navn:" />
@@ -187,9 +192,21 @@
                 <textarea name="text" class="feedback-input" placeholder="Skriv..."></textarea>
                 <button class="sendknap" onclick="myFunction()">Send</button>
               </form>
-          <p id="demo"></p>
-
-
+              <p id="demo"></p>
             </div>
+            <p style="white-space: pre;">
+                < div class="form" >
+                  < form class="contactform" >
+                    < input name="email" type="email" class="feedback-input" placeholder="Navn:"/ >
+                    < input name="email" type="email" class="feedback-input" placeholder="Email:"/ >
+                      < select id="vælgEmne" class="feedback-input" placeholder ="Emne..." required >
+                      < /select>
+                    < textarea name="text" class="feedback-input" placeholder="Skriv...">< /textarea >
+                    < button class="sendknap" onclick="myFunction()">Send< /button >
+                  < /form>
+                  < p id="demo" >< /p >
+                < /div>
+            </p>
+        </div>
   </body>
 </html>
